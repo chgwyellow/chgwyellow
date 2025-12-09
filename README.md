@@ -1,6 +1,7 @@
-# 👋 Hi, This is Arthur (chgwyellow)
+# 👋 Hi, I'm Arthur (chgwyellow)
 
-I enjoy immersing myself in the world of programming — exploring data, building systems, and creating things that actually work.  
+I enjoy immersing myself in the world of programming —  
+exploring data, building systems, and creating things that actually work.  
 My goal is to grow into someone who can turn ideas into scalable and reliable data solutions.
 
 ---
@@ -10,22 +11,21 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 - 🚀 Passionate about **Data Engineering**, **Data Science**, **Machine Learning**, and **Deep Learning**
 - 🔧 Strengthening skills in Python, SQL, data pipelines, databases, and cloud-native tools
 - 🧠 Exploring **LLM workflows**, especially **RAG**, vector databases, and prompt engineering
-- 🌱 Learning by building real projects, experimenting with models, and analyzing real-world datasets
+- 🌱 Learning by building real projects and experimenting with real-world datasets
 - 💼 Open to opportunities in **DE / DS / ML Engineering**
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-git-masterorgs-projects.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats-git-masterorgs-projects.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight)
 
 ---
 
 ## 🛠️ Skills & Tools
 
-### 💡 Programming & Tools
 <div>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
@@ -40,8 +40,8 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ### 🔹 **Machine Learning Model – Air Quality Prediction Model**
 
-📌 **A predictive modeling project focused on forecasting Air Quality Index (AQI) using machine learning techniques.**  
-This project demonstrates my ability to handle a full ML workflow — from data cleaning, feature engineering, and exploratory analysis, to training models, evaluating performance, and generating interpretable insights.
+📌 **A machine learning project focused on predicting AQI (Air Quality Index) using real-world air pollution data.**  
+This project covers the full ML workflow — data preprocessing, feature engineering, exploratory analysis, model training, and performance evaluation — demonstrating practical problem-solving and end-to-end implementation ability.
 
 🔗 Repo: https://github.com/chgwyellow/air_pollution
 
@@ -49,3 +49,4 @@ This project demonstrates my ability to handle a full ML workflow — from data 
 
 ## 📫 Contact Me
 📧 **dinnis1107@gmail.com**
+
