@@ -14,16 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - uses: avinal/Profile-Readme-WakaTime@master
+      - uses: athul/wakatime-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          SECTION_NAME: wakatime
-          BRANCH_NAME: "main"
-          SHOW_OS: "False"
-          SHOW_PROJECTS: "False"
-          SHOW_EDITORS: "False"
-          SHOW_TIME: "True"
-          SHOW_TOTAL: "True"
-          LANG_COUNT: 5
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          SHOW_TITLE: true 
+          SECTION_NAME: wakatime 
+          BLOCKS: ░▒▓█ 
+          CODE_LANG: python 
+          TIME_RANGE: last_7_days 
+          LANG_COUNT: 5 
+          SHOW_TIME: true 
+          SHOW_TOTAL: true 
