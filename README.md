@@ -61,6 +61,19 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 🔗 Repo: https://github.com/chgwyellow/air_pollution
 
+### 🏗️ System Architecture (Data Pipeline)
+
+```mermaid
+graph LR
+    A[☁️ Air Quality API] -->|Extract| B(🐍 Python Script)
+    B -->|Transform / Clean| C[(🐬 MySQL DB)]
+    C -->|Load| D{🤖 ML Model Training}
+    D -->|Predict| E[📊 Dashboard / Alert]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bfb,stroke:#333,stroke-width:2px
+
 ---
 
 ## 📫 Contact Me
