@@ -53,8 +53,9 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ## ⏳ Weekly Coding Stats
 
-<!--START_SECTION:wakatime-->
-<!--END_SECTION:wakatime-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/wakatime.svg" alt="WakaTime Stats" />
+</div>
 
 ---
 
