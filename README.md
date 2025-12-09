@@ -61,18 +61,28 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 🔗 Repo: https://github.com/chgwyellow/air_pollution
 
-### 🏗️ System Architecture (Data Pipeline)
+### 🏗️ Workflow Architecture
 
 ```mermaid
-graph LR
-    A[☁️ Air Quality API] -->|Extract| B(🐍 Python Script)
-    B -->|Transform / Clean| C[(🐬 MySQL DB)]
-    C -->|Load| D{🤖 ML Model Training}
-    D -->|Predict| E[📊 Dashboard / Alert]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#bfb,stroke:#333,stroke-width:2px
+graph TD
+    subgraph Container [🐳 Dockerized Environment & GitHub Actions]
+        direction TB
+        
+        Input[📂 Raw CSV Data] -->|Step 1| Clean(🧹 Data Cleaning)
+        Clean -->|Step 2| Feature(⚙️ Feature Engineering)
+        
+        Feature -->|Step 3| Model{🤖 Model Building}
+        Model -->|Step 4| Eval[📉 Prediction & Evaluation]
+        Model -->|Step 5| SHAP[🔍 SHAP Interpretability]
+        
+        Eval --> App[🚀 Streamlit App]
+        SHAP --> App
+    end
+
+    style Container fill:#f0f8ff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+    style Model fill:#ffe0b2,stroke:#f57c00,stroke-width:2px
+    style App fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+```
 
 ---
 
