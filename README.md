@@ -51,6 +51,10 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ---
 
+## ⏳ Weekly Coding Stats
+
+---
+
 ## 📂 Featured Project
 
 ### 🔹 **Air Quality Prediction System (End-to-End ML Pipeline)**
