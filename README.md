@@ -64,24 +64,23 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 ### 🏗️ Workflow Architecture
 
 ```mermaid
-graph TD
-    subgraph Container [🐳 Dockerized Environment & GitHub Actions]
-        direction TB
+graph LR
+    classDef data fill:#16161e,stroke:#7aa2f7,stroke-width:2px,color:#fff
+    classDef model fill:#16161e,stroke:#bb9af7,stroke-width:2px,color:#fff
+    classDef deploy fill:#16161e,stroke:#9ece6a,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    
+    subgraph Pipeline [🐳 Dockerized ML Pipeline]
+        direction LR
+        Raw[📂 Raw Data]:::data --> Clean(🧹 Cleaning):::data
+        Clean --> Feat(⚙️ Feature Eng.):::data
+        Feat --> Train{🤖 Model Building}:::model
         
-        Input[📂 Raw CSV Data] -->|Step 1| Clean(🧹 Data Cleaning)
-        Clean -->|Step 2| Feature(⚙️ Feature Engineering)
-        
-        Feature -->|Step 3| Model{🤖 Model Building}
-        Model -->|Step 4| Eval[📉 Prediction & Evaluation]
-        Model -->|Step 5| SHAP[🔍 SHAP Interpretability]
-        
-        Eval --> App[🚀 Streamlit App]
-        SHAP --> App
+        %% 分支：一邊做評估與解釋，一邊做部署
+        Train --> Eval[📉 Eval & SHAP]:::model
+        Train -.-> App[🚀 Streamlit App]:::deploy
     end
 
-    style Container fill:#f0f8ff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
-    style Model fill:#ffe0b2,stroke:#f57c00,stroke-width:2px
-    style App fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    linkStyle default stroke:#565f89,stroke-width:2px;
 ```
 
 ---
