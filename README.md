@@ -54,7 +54,7 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 ## ⏳ Weekly Coding Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/wakatime.svg" alt="WakaTime Stats" />
+  <img src="./wakatime.svg" alt="WakaTime Stats" />
 </div>
 
 ---
