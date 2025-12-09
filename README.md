@@ -1,7 +1,6 @@
 # 👋 Hi, This is Arthur (chgwyellow)
 
-I enjoy immersing myself in the world of programming —  
-exploring data, building systems, and creating things that actually work.  
+I enjoy immersing myself in the world of programming — exploring data, building systems, and creating things that actually work.  
 My goal is to grow into someone who can turn ideas into scalable and reliable data solutions.
 
 ---
