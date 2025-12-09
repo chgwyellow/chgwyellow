@@ -53,6 +53,9 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ## ⏳ Weekly Coding Stats
 
+<!--START_SECTION:wakatime-->
+<!--END_SECTION:wakatime-->
+
 ---
 
 ## 📂 Featured Project
