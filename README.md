@@ -46,7 +46,7 @@ I enjoy discovering insights from data, solving real-world problems, and continu
 
 ### 🔹 **1. Machine Learning Model – Air Quality Prediction Model**
 📌 *Use ML to predict AQI*  
-🔗 Repo: https://github.com/chgwyellow/air_pollution
+🔗 Repo: [https://github.com/chgwyellow/air_pollution](https://github.com/chgwyellow/air_pollution_analysis)
 
 ---
 
