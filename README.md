@@ -1,25 +1,26 @@
-# 👋 Hi, I'm Arthur (chgwyellow)
+# 👋 Hi, This is Arthur (chgwyellow)
 
-I’m a passionate learner diving deep into **data engineering** and **data science**.  
-I enjoy discovering insights from data, solving real-world problems, and continuously improving my technical skills.
+I enjoy immersing myself in the world of programming —  
+exploring data, building systems, and creating things that actually work.  
+My goal is to grow into someone who can turn ideas into scalable and reliable data solutions.
 
 ---
 
 ## 🌟 About Me
-- 🔍 Interested in **Data Engineering**, **Machine Learning**, and **AI Tools**
-- 🌱 Currently learning **Python**, **SQL**, and statistical foundations  
-- 🎯 Looking for opportunities related to **Engineering / Data Engineering / Data Science**
-- 📚 Always learning through hands-on projects and experiments
+
+- 🚀 Passionate about **Data Engineering**, **Data Science**, **Machine Learning**, and **Deep Learning**
+- 🔧 Strengthening skills in Python, SQL, data pipelines, databases, and cloud-native tools
+- 🧠 Exploring **LLM workflows**, especially **RAG**, vector databases, and prompt engineering
+- 🌱 Learning by building real projects, experimenting with models, and analyzing real-world datasets
+- 💼 Open to opportunities in **DE / DS / ML Engineering**
 
 ---
 
 ## 📊 GitHub Stats
 
-<!-- GitHub Stats -->
-![Arthur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-git-masterorgs-projects.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight)
 
-<!-- Most Used Languages -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats-git-masterorgs-projects.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight)
 
 ---
 
@@ -27,29 +28,25 @@ I enjoy discovering insights from data, solving real-world problems, and continu
 
 ### 💡 Programming & Tools
 <div>
-  <!-- Python -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-
-  <!-- MySQL -->
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-
-  <!-- Docker -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-
-  <!-- Machine Learning -->
-  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-800080?style=for-the-badge&logo=pytorch&logoColor=white"/>
 </div>
 
 ---
 
-## 📂 Featured Projects
+## 📂 Featured Project
 
-### 🔹 **1. Machine Learning Model – Air Quality Prediction Model**
-📌 *Use ML to predict AQI*  
-🔗 Repo: [https://github.com/chgwyellow/air_pollution](https://github.com/chgwyellow/air_pollution_analysis)
+### 🔹 **Machine Learning Model – Air Quality Prediction Model**
+
+📌 **A predictive modeling project focused on forecasting Air Quality Index (AQI) using machine learning techniques.**  
+This project demonstrates my ability to handle a full ML workflow — from data cleaning, feature engineering, and exploratory analysis, to training models, evaluating performance, and generating interpretable insights.
+
+🔗 Repo: https://github.com/chgwyellow/air_pollution
 
 ---
 
 ## 📫 Contact Me
-Feel free to reach out!  
 📧 **dinnis1107@gmail.com**
