@@ -19,8 +19,10 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Langs" />
+  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile Details" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Top Langs" />
+  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="Stats" />
 </div>
 
 <div align="center">
