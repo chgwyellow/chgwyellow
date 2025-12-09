@@ -65,22 +65,21 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ```mermaid
 graph LR
-    classDef data fill:#16161e,stroke:#7aa2f7,stroke-width:2px,color:#fff
-    classDef model fill:#16161e,stroke:#bb9af7,stroke-width:2px,color:#fff
-    classDef deploy fill:#16161e,stroke:#9ece6a,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    classDef data fill:#16161e,stroke:#89ddff,stroke-width:2px,color:#fff
+    classDef model fill:#16161e,stroke:#f5bde6,stroke-width:3px,color:#fff
+    classDef deploy fill:#16161e,stroke:#a6e3a1,stroke-width:2px,color:#fff,stroke-dasharray: 8 5
     
-    subgraph Pipeline [🐳 Dockerized ML Pipeline]
+    subgraph Pipeline [🐳 **Dockerized ML Pipeline**]
         direction LR
-        Raw[📂 Raw Data]:::data --> Clean(🧹 Cleaning):::data
-        Clean --> Feat(⚙️ Feature Eng.):::data
-        Feat --> Train{🤖 Model Building}:::model
+        Raw[**📂 Raw Data**]:::data --> Clean(**🧹 Cleaning**):::data
+        Clean --> Feat(**⚙️ Feature Eng.**):::data
+        Feat --> Train{**🤖 Model Building**}:::model
         
-        %% 分支：一邊做評估與解釋，一邊做部署
-        Train --> Eval[📉 Eval & SHAP]:::model
-        Train -.-> App[🚀 Streamlit App]:::deploy
+        Train --> Eval[**📉 Eval & SHAP**]:::model
+        Train -.-> App[**🚀 Streamlit App**]:::deploy
     end
 
-    linkStyle default stroke:#565f89,stroke-width:2px;
+    linkStyle default stroke:#9aa5ce,stroke-width:3px;
 ```
 
 ---
