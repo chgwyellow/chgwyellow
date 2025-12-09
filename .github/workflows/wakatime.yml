@@ -1,4 +1,4 @@
-name: WakaTime Stats
+name: WakaTime Stats (Image)
 
 on:
   schedule:
@@ -7,23 +7,19 @@ on:
 
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: Generate WakaTime Image
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: athul/wakatime-readme@master
+      - uses: lowlighter/metrics@latest
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          SHOW_TITLE: true 
-          SECTION_NAME: wakatime 
-          BLOCKS: ░▒▓█ 
-          CODE_LANG: python 
-          TIME_RANGE: last_7_days 
-          LANG_COUNT: 5 
-          SHOW_TIME: true 
-          SHOW_TOTAL: true 
+          filename: wakatime.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          base: ""
+          
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
+          plugin_wakatime_days: 7 
