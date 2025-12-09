@@ -18,9 +18,19 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chgwyellow&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Langs" />
+</div>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chgwyellow&layout=compact&theme=tokyonight)
+<div align="center">
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chgwyellow/chgwyellow/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chgwyellow/chgwyellow/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 ---
 
@@ -40,8 +50,7 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ### 🔹 **Machine Learning Model – Air Quality Prediction Model**
 
-📌 **A machine learning project focused on predicting AQI (Air Quality Index) using real-world air pollution data.**  
-This project covers the full ML workflow — data preprocessing, feature engineering, exploratory analysis, model training, and performance evaluation — demonstrating practical problem-solving and end-to-end implementation ability.
+📌 **A machine learning project focused on predicting AQI (Air Quality Index) using real-world air pollution data.** This project covers the full ML workflow — data preprocessing, feature engineering, exploratory analysis, model training, and performance evaluation — demonstrating practical problem-solving and end-to-end implementation ability.
 
 🔗 Repo: https://github.com/chgwyellow/air_pollution
 
@@ -49,4 +58,3 @@ This project covers the full ML workflow — data preprocessing, feature enginee
 
 ## 📫 Contact Me
 📧 **dinnis1107@gmail.com**
-
