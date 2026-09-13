@@ -1,17 +1,19 @@
-# 👋 Hi, I'm Arthur (chgwyellow)
+# Hi, I'm Arthur
 
-I enjoy immersing myself in the world of programming —  
-exploring data, building systems, and creating things that actually work.  
-My goal is to grow into someone who can turn ideas into scalable and reliable data solutions.
+I'm a data engineer who enjoys turning real-world problems into practical systems.
+
+I like working across the path from **data ingestion and storage to analysis and applications** — understanding where data comes from, designing how it should flow, and building something useful on top of it.
+
+This is where I document what I'm building, learning, and improving along the way.
 
 ---
 
 ## About Me
 
-- ✈️ Aviation enthusiast with a deep passion for **aircraft** and the **aviation industry**
-- 🚀 Focused on **Data Engineering** and **Data Analytics**
-- 📊 Passionate about transforming raw data into actionable insights through robust data pipelines
-- 🌱 Learning by building real projects and experimenting with real-world datasets
+- **Data Engineering** — Building reliable pipelines and data systems that connect external sources, databases, and applications.
+- **Engineering Fundamentals** — Strengthening my foundations in computer science, system design, databases, and software engineering rather than just learning individual tools.
+- **Learning by Building** — I prefer turning concepts into real projects, using them to understand not only *how* something works, but *why* it is designed that way.
+- **Currently Building** — Projects around personal finance, real-world data pipelines, and data-driven applications.
 
 ---
 
