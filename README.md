@@ -6,7 +6,7 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ---
 
-## 🌟 About Me
+## About Me
 
 - ✈️ Aviation enthusiast with a deep passion for **aircraft** and the **aviation industry**
 - 🚀 Focused on **Data Engineering** and **Data Analytics**
@@ -15,7 +15,7 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/solarized/0-profile-details.svg" alt="Profile Details" />
@@ -31,7 +31,7 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Skills |
 | :--- | :--- |
@@ -40,42 +40,22 @@ My goal is to grow into someone who can turn ideas into scalable and reliable da
 
 ---
 
-## 📂 Featured Project
+## Featured Projects
 
-### 🔹 **Air Quality Prediction System (End-to-End ML Pipeline)**
+### [FinTrack](https://github.com/chgwyellow/FinTrack) — Personal Finance App for macOS
 
-📌 **A comprehensive machine learning project predicting AQI using real-world environmental data.**
+- **Native App:** Built with **Swift and SwiftUI** to manage assets, liabilities, investments, and net worth in one place.
+- **Financial Analytics:** Integrated market prices and exchange rates to track Taiwan and U.S. stocks and ETFs, portfolio performance, and net worth history.
+- **Local Storage:** Designed **SQLite** persistence for financial records and manual or scheduled snapshots, keeping personal data on the user's Mac without requiring an account.
 
-- **Pipeline:** Designed a robust workflow including Data Cleaning, Feature Engineering, and Model Evaluation.
-- **Model Selection:** Conducted comparative analysis between **Deep Learning (LSTM)** and **Gradient Boosting (LightGBM)**.
-- **Result:** **LightGBM** achieved superior performance (higher R²) and efficiency compared to LSTM for this tabular dataset.
-- **Deployment:** Containerized the solution using Docker and deployed a user interface via Streamlit.
+### [AegisGeo](https://github.com/chgwyellow/AegisGeo) — Natural Disaster Data Pipeline
 
-🔗 Repo: <https://github.com/chgwyellow/air_pollution>
-
-### 🏗️ Workflow Architecture
-
-```mermaid
-graph LR
-    classDef data fill:#16161e,stroke:#89ddff,stroke-width:2px,color:#fff
-    classDef model fill:#16161e,stroke:#f5bde6,stroke-width:3px,color:#fff
-    classDef deploy fill:#16161e,stroke:#a6e3a1,stroke-width:2px,color:#fff,stroke-dasharray: 8 5
-    
-    subgraph Pipeline [🐳 **Dockerized ML Pipeline**]
-        direction LR
-        Raw[**📂 Raw Data**]:::data --> Clean(**🧹 Cleaning**):::data
-        Clean --> Feat(**⚙️ Feature Eng.**):::data
-        Feat --> Train{**🤖 Model Building**}:::model
-        
-        Train --> Eval[**📉 Eval & SHAP**]:::model
-        Train -.-> App[**🚀 Streamlit App**]:::deploy
-    end
-
-    linkStyle default stroke:#9aa5ce,stroke-width:3px;
-```
+- **Concurrent Ingestion:** Built a **Go** pipeline with seven ingestion clients to collect earthquake, rainfall, tsunami, severe weather, and volcano data into a unified event model.
+- **Geospatial Storage:** Used **PostgreSQL and PostGIS** for spatial and temporal earthquake deduplication, with partitioned tables and transactional batch upserts.
+- **Data Monitoring:** Developed a health check CLI that reports source availability, response latency, event counts, and latest event timestamps without writing to the database.
 
 ---
 
-## 📫 Contact Me
+## Contact Me
 
-📧 **<dinnis1107@gmail.com>**
+**<dinnis1107@gmail.com>**
