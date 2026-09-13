@@ -20,9 +20,6 @@ This is where I document what I'm building, learning, and improving along the wa
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/solarized/0-profile-details.svg" alt="Profile Details" />
-  <br/>
-
   <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/solarized/1-repos-per-language.svg" height="170" alt="Repos per Language" />
   <img src="https://raw.githubusercontent.com/chgwyellow/chgwyellow/main/profile-summary-card-output/solarized/2-most-commit-language.svg" height="170" alt="Most Commit Language" />
   <br/>
